@@ -42,7 +42,7 @@ class Counter {
         var currentPeak = (offset: 0, element: 0.0)
         var isSearchingPeak = false
         for item in array.enumerated() {
-            if !isSearchingPeak && item.element > minPeakValue {
+            if !isSearchingPeak && item.element > minPeakValue! {
                 isSearchingPeak = true
             }
             
@@ -50,7 +50,7 @@ class Counter {
                 currentPeak = item
             }
             
-            if isSearchingPeak && item.element < meanValue {
+            if isSearchingPeak && item.element < meanValue! {
                 isSearchingPeak = false
                 peaks.append(currentPeak)
                 currentPeak = (offset: 0, element: 0.0)
@@ -85,7 +85,7 @@ class Counter {
     
     func check(item: Double) -> Bool {
         var isPeak = false
-        if !isSearchingPeak && item > minPeakValue {
+        if !isSearchingPeak && item > minPeakValue! {
             isSearchingPeak = true
         }
         
@@ -94,7 +94,7 @@ class Counter {
             peakValue = item
         }
         
-        if isSearchingPeak && item < meanValue {
+        if isSearchingPeak && item < meanValue! {
             isSearchingPeak = false
             if let current = currentPeak {
                 minIntervalOffset = current.offset + interval

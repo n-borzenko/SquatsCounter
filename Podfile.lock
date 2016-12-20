@@ -1,29 +1,31 @@
 PODS:
   - Surge (1.0.0)
-  - SwiftCharts (0.4)
+  - SwiftCharts (0.5.1)
 
 DEPENDENCIES:
-  - Surge (from `https://github.com/mattt/Surge.git`)
-  - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`)
+  - Surge (from `https://github.com/mattt/Surge.git`, commit `88bc48b`)
+  - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`, tag `0.5.1`)
 
 EXTERNAL SOURCES:
   Surge:
+    :commit: 88bc48b
     :git: https://github.com/mattt/Surge.git
   SwiftCharts:
     :git: https://github.com/i-schuetz/SwiftCharts.git
+    :tag: 0.5.1
 
 CHECKOUT OPTIONS:
   Surge:
-    :commit: 88bc48b14b649f67384faec4db10c32cda207693
+    :commit: 88bc48b
     :git: https://github.com/mattt/Surge.git
   SwiftCharts:
-    :commit: 1705b493b9239cbeb74c484eb9fa9694e42e5b7d
     :git: https://github.com/i-schuetz/SwiftCharts.git
+    :tag: 0.5.1
 
 SPEC CHECKSUMS:
   Surge: ffbda0ae9f5da27fe2c7c40260bfafeddefb45d8
-  SwiftCharts: 84b43d9d70b791459ff5f50ae5a6704326de309d
+  SwiftCharts: 5c711f225e65bb967bf9ac952888670d461b80af
 
-PODFILE CHECKSUM: cc1c63a82b77ed4e587bfbcce82495564b2da264
+PODFILE CHECKSUM: a2dc678b98643d9a314b66667df3bdc64e7df62c
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
