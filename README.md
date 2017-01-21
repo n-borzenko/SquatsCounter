@@ -34,7 +34,7 @@ open -a Xcode SquatsCounter.xcworkspace
 
 Скриншоты: 
 
-<img src="http://nborzenko.ru/squats_counter/github/1.png" width="200">
-<img src="http://nborzenko.ru/squats_counter/github/2.png" width="200">
-<img src="http://nborzenko.ru/squats_counter/github/3.png" width="200">
-<img src="http://nborzenko.ru/squats_counter/github/4.png" width="200">
+<img src="http://nborzenko.ru/public/squats_counter/github/1.png" width="200">
+<img src="http://nborzenko.ru/public/squats_counter/github/2.png" width="200">
+<img src="http://nborzenko.ru/public/squats_counter/github/3.png" width="200">
+<img src="http://nborzenko.ru/public/squats_counter/github/4.png" width="200">
